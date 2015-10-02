@@ -1,0 +1,2 @@
+   Inside CONVSB
+   IP=           1     Before RLUDCMP
