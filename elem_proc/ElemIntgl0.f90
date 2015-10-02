@@ -1,3 +1,4 @@
+      
 !  NORM_ELE0+TSING0
 !  NORM_INT0+SING_INT0
 ! ======================================================
@@ -9,7 +10,9 @@
         include './add_on/ElemIntgl1.f90'
 !
         SUBROUTINE NORM_ELE0(IELEM,XP,YP,ZP,AVAL,BVAL)
+        
 	    USE MVAR_MOD
+        use tripole_mod
         IMPLICIT   NONE 
 	  
 	    INTEGER  IS,ND,J,NP,IELEM,NCNE

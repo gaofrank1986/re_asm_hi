@@ -1,9 +1,11 @@
 module tripole_mod
-    use mod_func!!spfunc is used 
-    use extend_mesh
+    !use mod_func!!spfunc is used 
+    !use extend_mesh
+    use MVar_mod
+    use MFUNC_mod
+    use pvar_mod
     implicit none
     !real(8) :: xc,yc,zc
-
     integer :: NOSAMP
     real(8) :: XYNOD(3,50),DXYNOD(6,50),SAMNOD(50,0:8)
 contains
